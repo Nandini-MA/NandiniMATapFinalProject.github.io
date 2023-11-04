@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RIEGISTER FORM</title>
+    <link rel="icon" href="footer-taplogo.png">
+ 
+    <style>
+    .form{
+        font-family:cursive;
+        margin:100px 200px;
+        margin-left: 300px;
+    }
+    .form input{
+        height:35px;
+    }
+    </style>
+</head>
+<body>
+<div style="border: 2px solid black;border-radius: 50px;">
+    <div style="margin-top: 20px;text-align: center;background-color: purple;padding: 20px;border: 1px solid black;border-left: 500px;margin-left: 350px;margin-right: 350px;border-radius: 20px;">
+        <form action="">
+            
+        <p style="font-family: cursive;color: navy;font-size: 30px;">Get Unlimited Placement opprtunity</p>
+        <h2 style="font-family: verdana;font-size: 20px; color: white;">Book Your Seat for Full Stack Web <br> Development Training</h2>
+        
+        <p style="font-family: verdana; font-size: 15px; color: white;">The only Training Institute with a Structured Hybrid Learning Model <br> with 24/7 Doubt Clarification. </p>
+    </div>  
+    <div class="form" style="font-family: cursive;font-size: 20px;margin-left: 360px;margin-top: 20px;">         
+        <label for="name">Name</label><br>
+        <input type="text" id="name" title="Please Fill Out This Field" name="name" required placeholder="Enter Your Name" pattern="[a-zA-Z]{3,8}" size="75"><br><br>
+        <label for="email">Email</label><br>
+        <input type="email" name="email" title="Please Fill Out This Field" id="email" required placeholder="Enter your Email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}" size="75"><br><br>
+        <label for="num">Whatsapp Number</label><br>
+        <input type="text" id="num" name="num" required title="Please Fill Out This Field" placeholder="Enter your Whatsapp Number" pattern="[6-9]{1}[0-9]{9}" size="75"><br><br>
+        <label for="">Year Of Passing</label><br>
+        <input list="yog" name="yop" id="yop" required size="75">
+        <datalist id="yog">
+            <option>2017</option>
+            <option>2018</option>
+            <option>2019</option>            
+            <option>2020</option>
+            <option>2021</option>
+            <option>2022</option>
+            <option>2023</option>
+            <option>2024</option>
+        </datalist>
+            <br><br>
+        <label for="">Mode Of Training</label> <br>
+        <input type="checkbox" required name="mot" id="online">
+        <label for="online">Online</label> <br>
+        <input type="checkbox" required name="mot" id="offline">
+        <label for="offline">Offline</label><br><br>
+        <a href="fulstacklive.html">
+        <input style="height:40px; width:200px; font-size: 25px; font-family: cursive; background-color:purple;color: white; border-radius: 10px;" type="submit"> </a>
+        </form>
+    </div>
+</div>
+</body>
+</html>
