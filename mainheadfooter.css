@@ -1,0 +1,102 @@
+.container{
+    padding-left: 350px;
+    text-align:center;
+    display:flex;
+    gap:20px;
+    background-color: aliceblue;
+    font-family: cursive;
+    border:2px none aliceblue;
+}
+.main{
+    height:18px;
+    width:20px;
+    margin-top: 10px;
+}
+#one{
+    margin-left: 350px;
+}
+
+
+
+.container1{
+    padding-left: 40px;
+    display:flex;
+    gap:50px;
+    font-family: verdana;
+    border:2px solid #C9A7EB;
+    background-color: #C9A7EB ;
+    border-radius:150px;
+    height:40px;
+    padding-top:20px;
+    margin-right: 250px;
+    margin-left: 300px;
+    margin-top:-50px;
+}
+.container1 a{
+    text-decoration: none;
+    color: black;
+    font-size: medium;
+}
+
+.container1 span:last-child:hover button
+{
+    background-color:mediumpurple; 
+}
+span a:hover, .dropdown:hover .dropbtn 
+{
+    background-color:lavender;
+}
+.dropdown-content 
+{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px red;
+    z-index: 1;
+}
+
+.dropdown-content a 
+{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content 
+{
+    display: block;
+}
+
+
+
+.container3{
+    background-color: #D8B4F8;  
+    padding: 50px;
+    padding-left:350px;
+    font-family: cursive;
+    margin-top: 150px;
+}
+.container3 a{
+    text-decoration: none;
+    color: green;
+    font-size: medium;
+}
+.container3 a:hover{
+    background-color: salmon;
+}
+
+.container3 a:checked + td{
+    color:purple;
+}
+.container3 .blog {
+color: green; 
+}
+.container3 .bold {
+color:#451952; 
+font-weight: 100;
+font-size: 30px;
+}
